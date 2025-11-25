@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "chartspfx-client-side-solution",
+    "id": "3ec1ff30-c5fe-42ff-a912-f62d8e8b4261",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "chartspfx description"
+      },
+      "longDescription": {
+        "default": "chartspfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "chartspfx Feature",
+        "description": "The feature that activates elements of the chartspfx solution.",
+        "id": "b364afec-d34e-4e32-b3c1-d3838633e35f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/chartspfx.sppkg"
+  }
+}
