@@ -1,8 +1,8 @@
 {
   "@microsoft/generator-sharepoint": {
     "plusBeta": false,
-    "isCreatingSolution": true,
-    "nodeVersion": "18.20.8",
+    "isCreatingSolution": false,
+    "nodeVersion": "18.19.1",
     "sdksVersions": {},
     "version": "1.21.1",
     "libraryName": "chartspfx",

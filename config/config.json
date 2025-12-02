@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/chartspfx/ChartspfxWebPart.manifest.json"
         }
       ]
+    },
+    "suhani-changes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/suhaniChanges/SuhaniChangesWebPart.js",
+          "manifest": "./src/webparts/suhaniChanges/SuhaniChangesWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "ChartspfxWebPartStrings": "lib/webparts/chartspfx/loc/{locale}.js"
+    "ChartspfxWebPartStrings": "lib/webparts/chartspfx/loc/{locale}.js",
+    "SuhaniChangesWebPartStrings": "lib/webparts/suhaniChanges/loc/{locale}.js"
   }
 }
